@@ -1,0 +1,7 @@
+
+@mixin custom-menu-theme($theme) {
+
+  .mat-list-item-content {
+    background-color: yellow;
+  }
+}
