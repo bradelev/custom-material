@@ -1,0 +1,6 @@
+// Mixin to override mat-datepicker component
+@mixin custom-datepicker-theme($theme) {
+  .mat-calendar-body-cell .mat-calendar-body-cell-content {
+    border-radius: 0;
+  }
+}

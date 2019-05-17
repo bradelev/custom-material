@@ -1,0 +1,12 @@
+// Mixin to override mat-list component
+@mixin custom-menu-theme($theme) {
+  .mat-list-item-content {
+    background-color: #666;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 12px;
+    &:hover {
+      background-color: #333;
+    }
+  }
+}

@@ -1,7 +1,8 @@
+@import './components/menu';
+@import './components/datepicker';
 
-@mixin custom-menu-theme($theme) {
-
-  .mat-list-item-content {
-    background-color: yellow;
-  }
+// mixin to group all customized components
+@mixin custom-theme($theme) {
+  @include custom-menu-theme($theme);
+  @include custom-datepicker-theme($theme);
 }

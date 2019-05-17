@@ -27,7 +27,9 @@ $custom-material-theme: mat-light-theme($custom-material-primary, $custom-materi
 // that you are using.
 @include angular-material-theme($custom-material-theme);
 
-// @include custom-menu-theme($custom-material-theme);
+
+// custom theme, mixin imported from styles/_custom.scss
+@include custom-theme($custom-material-theme);
 
 /* You can add global styles to this file, and also import other style files */
 
